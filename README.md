@@ -37,3 +37,13 @@ _El archivo .gitignore se coloca en la raíz del proyecto y su sintaxis es simpl
 # _PUNTO 3_
 
 
+## g) Si resolvió correctamente los apartados 2 y 3 del punto anterior notará
+## que el resultado es el mismo. ¿a qué se debe? ¿Qué obtiene en el
+## punto 4? ¿Es igual a los anteriores? ¿Por qué? Responder en el archivo
+## readme.md
+
+_Esto se debe a que al declarar una variable reservo un bloque de memoria en una direccion determinada, y un puntero es una variable que permite guardar direcciones de memoria por lo que al acceder al valor almacenado en la variable puntero (la cual fue definida como la direccion de la variable) vemos que al mostrar ambas son iguales_
+
+
+_En el punto 4 obtengo la direccion de la variable puntero, es decir, el bloque de memoria en el que esta almacenada la direccion de la variable original._
+_No es igual al punto 2 y 3 ya que estos muestran la direccion de una variable diferente._
