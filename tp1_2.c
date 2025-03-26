@@ -15,7 +15,7 @@ int main(){
     c = cuadrado(a);
     printf("El cuadrado de %d es: %d",a,c);
     cuadrado2(&a);
-    printf("El cuadrado es %d",a);
+    printf("\nEl cuadrado de a es %d",a);
     mostrar(&b);
     invertir(&a,&b);
     printf("\n a: %d",a);
