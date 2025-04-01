@@ -42,7 +42,7 @@ void cuadrado2(int* num){
 
 
 void mostrar(int* num){
-
+    printf("\nNum: %d",*num);
 }
 
 
